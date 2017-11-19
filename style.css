@@ -1,0 +1,46 @@
+body {
+  font-family: Arial;
+  font-weight: bolder;
+  text-align: center;
+  padding: 0 100px;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+aside {
+  flex: 1;
+  text-align: right;
+}
+section {
+  flex: 5;
+}
+.btn {
+  display: inline-block;
+  padding: 20px;
+  margin: 5px;
+  min-width: 18px;
+  height: 18px;
+  border: 1px solid #a1bcc1;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: #333;
+}
+.btn.off {
+  background: #aaa;
+  color: #fff;
+  cursor: not-allowed;
+}
+#wordToKnow {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+#restart {
+  opacity: 0;
+}
+#restart:hover {
+  opacity: 1;
+}

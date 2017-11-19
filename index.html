@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hangman game</h1>
+  </header>
+  <hr>
+  <div class="container">
+    <section id="main">
+      <div id="buttons">
+        <a id="a" class="btn letter" href="#a">a</a>
+        <a id="b" class="btn letter" href="#b">b</a>
+        <a id="c" class="btn letter" href="#c">c</a>
+        <a id="d" class="btn letter" href="#d">d</a>
+        <a id="e" class="btn letter" href="#e">e</a>
+        <a id="f" class="btn letter" href="#f">f</a>
+        <a id="g" class="btn letter" href="#g">g</a>
+        <a id="h" class="btn letter" href="#h">h</a>
+        <a id="i" class="btn letter" href="#i">i</a>
+        <a id="j" class="btn letter" href="#j">j</a>
+        <a id="k" class="btn letter" href="#k">k</a>
+        <a id="l" class="btn letter" href="#l">l</a>
+        <a id="m" class="btn letter" href="#m">m</a>
+        <a id="n" class="btn letter" href="#n">n</a>
+        <a id="o" class="btn letter" href="#o">o</a>
+        <a id="p" class="btn letter" href="#p">p</a>
+        <a id="q" class="btn letter" href="#q">q</a>
+        <a id="r" class="btn letter" href="#r">r</a>
+        <a id="s" class="btn letter" href="#s">s</a>
+        <a id="t" class="btn letter" href="#t">t</a>
+        <a id="u" class="btn letter" href="#u">u</a>
+        <a id="v" class="btn letter" href="#v">v</a>
+        <a id="w" class="btn letter" href="#w">w</a>
+        <a id="x" class="btn letter" href="#x">x</a>
+        <a id="y" class="btn letter" href="#y">y</a>
+        <a id="z" class="btn letter" href="#z">z</a>
+      </div>
+      <h3 id="wordToKnow"></h3>
+      <canvas id="canvas" width="300" height="150">
+      </section>
+      <aside>
+        <h4>¡Use the keyboard!</h4>
+        <h5>1 => <span id="newGameText">¡Nueva partida!</span></h5>
+        <h5>2 => <span id="hintText">¡Pista!</span></h5>
+        <h5>3 => <span id="changeLangText">Try on English</span></h5>
+        <p><span id="pointsText">Puntos</span>: <span id="points">0</span></p>
+        <p><span id="lostsText">Perdidas</span>: <span id="losts">0</span></p>
+        <p><span id="winsText">Ganadas</span>: <span id="wins">0</span></p>
+        <p><span id="timeText">Tiempo</span>: <span id="time">0</span></p>
+        <p><span id="attemptsText">Intentos</span>: <span id="fails">0</span></p>
+        <p><span id="hintsText">Pistas</span>: <span id="hints">0</span></p>
+        <h2 id="final"></h2>
+      </aside>
+    </div>
+    <footer>
+      <a id="newGame" class="btn newGame" href="#newGame">New game!</a>
+      <a id="restart" class="btn restart" href="#restart">¡Reiniciar estadísticas! (Shhh, esto es trampa!)</a>
+      <a id="hint" class="btn hint" href="#hint">Hint!</a>
+      <a id="changeLang" class="btn changeLang" href="#changeLang">changeLang!</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+  </html>
